@@ -9,7 +9,16 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["IBM Plex Sans", "system-ui"],
+        raleway: ["Raleway"],
+      },
+      colors: {
+        bgdark: "#141619",
+        textdark: "#fafafa",
+      },
+    },
   },
   plugins: [],
 };
